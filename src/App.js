@@ -29,10 +29,10 @@ function App() {
       </header> */}
       <Tp5/>
       <Routes>
-        <Route path='/TP5_react/CalcState' element={<CalcState/>}/>
-        <Route path='/TP5_react/Slider' element={<Slider/>}/>
-        <Route path='/TP5_react/Formtasks' element={<Formtasks/>}/>
-        <Route path='/TP5_react/UseEffectTp' element={<UseEffectTp/>}/>
+        <Route path='/CalcState' element={<CalcState/>}/>
+        <Route path='/Slider' element={<Slider/>}/>
+        <Route path='/Formtasks' element={<Formtasks/>}/>
+        <Route path='/UseEffectTp' element={<UseEffectTp/>}/>
       </Routes>
     </div>
   );
