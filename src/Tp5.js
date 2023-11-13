@@ -4,7 +4,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import CalcState from './CalcState';
+import CalcState from  './CalcState';
+import Slider from './Slider';
+import Formtasks from './Formtasks';
+import UseEffectTp from './UseEffectTp';
 
 export default function Tp5() {
 return (
