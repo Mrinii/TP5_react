@@ -1,29 +1,30 @@
 import {React} from 'react';
-
 import { Link } from 'react-router-dom' ;
 import 'bootstrap/dist/css/bootstrap.css';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import CalcState from './CalcState';
 
 export default function Tp5() {
 return (
     <div >
-        <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
-        <div className='collapse navbar-collapse'>
-        <ul className="navbar-nav mr-auto">
-            <li class="nav-item">
-            <Link to='./CalcState' className='nav-link' >Calculatrice</Link>
-            </li>
-            <li className="nav-item">
-            <Link to='./Slider'className='nav-link'>Slider</Link>
-            </li>
-            <li>
-            <Link to='./Formtasks'className='nav-link'>To Do Tasks</Link>
-            </li>
-            <li className="nav-item">
-            <Link to='./UseEffectTp' className='nav-link'>API</Link>
-            </li>
-        </ul>
-        </div>
-        </nav>
+    <Navbar expand="lg" className="bg-body-tertiary">
+    <Container>
+      <Navbar.Brand href="#home">NavBArLinks</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="me-auto">
+          <Nav.Link href="/TP5_react/CalcState">Calculatrice</Nav.Link>
+          <Nav.Link href="/TP5_react/Slider">Slider</Nav.Link>
+          <Nav.Link href="/TP5_react/Formtasks">To Do Tasks</Nav.Link>
+          <Nav.Link href="/TP5_react/UseEffectTp">API</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Container>
+  </Navbar>
     </div>
 )
 }
+
+
