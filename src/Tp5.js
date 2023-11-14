@@ -18,7 +18,7 @@ return (
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
-          <Nav.Link href="/CalcState">Calculatrice</Nav.Link>
+          <Nav.Link href="/TP1_react">Calculatrice</Nav.Link>
           <Nav.Link href="/Slider">Slider</Nav.Link>
           <Nav.Link href="/Formtasks">To Do Tasks</Nav.Link>
           <Nav.Link href="/UseEffectTp">API</Nav.Link>
